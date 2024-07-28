@@ -10,7 +10,6 @@ export default function Home() {
       <TopBar />
       <Container className="mt-10 pb-14">
         <div className="flex gap-[60px]">
-
           {/* filter */}
           <div className="w-[250px]">
             <Filter />
@@ -18,9 +17,7 @@ export default function Home() {
 
           {/* Produc list */}
           <div className="flex-1">
-            <div className="flex flex-col gap-16">
-              Product list
-            </div>
+            <div className="flex flex-col gap-16">Product list</div>
           </div>
         </div>
       </Container>
